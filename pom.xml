@@ -6,7 +6,11 @@
 
     <groupId>com.atguigu</groupId>
     <artifactId>Springboot</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>p08_active</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
