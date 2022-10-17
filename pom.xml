@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>p08_active</module>
+        <module>p01_hello</module>
     </modules>
 
     <properties>
@@ -34,4 +35,12 @@
             </dependency>
         </dependencies>
     </dependencyManagement>-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
