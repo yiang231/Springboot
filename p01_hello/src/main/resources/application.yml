@@ -19,3 +19,36 @@ spring:
       url: jdbc:mysql:///springboot4
       username: root4
       password: root4
+
+#字面量
+empno: 7839
+ename: SMITH
+hiredate: 1982-12-13
+sal: 3000.0
+ismgr: false
+
+#对象
+#缩进样式
+emp:
+  empno: 7839
+  ename: SMITH
+  hiredate: 1982-12-13
+  sal: 3000.0
+  ismgr: false
+#行内样式
+emp2: { empno: 7839,ename: SMITH,hiredate: 1982-12-13,sal: 3000.0,ismgr: false }
+
+#数组
+hobby:
+  - sport
+  - music
+  - art
+  - java
+#缩进样式
+city:
+  - beijing
+  - tianjin
+  - shanghai
+  - chongqing
+# 行内方式
+hobbyArr: [ game,program,travel ]
