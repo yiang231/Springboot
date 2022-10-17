@@ -1,0 +1,12 @@
+#系统项带提示
+#系统项位置spring-configuration-metadata.json
+server:
+  port: 8080
+  servlet:
+    context-path: /springboot
+#  配置文件读取顺序
+#  <includes>
+#  <include>**/application*.yml</include>
+#  <include>**/application*.yaml</include>
+#  <include>**/application*.properties</include>
+#  </includes>
