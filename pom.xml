@@ -12,6 +12,7 @@
         <module>p08_active</module>
         <module>p01_hello</module>
         <module>p02_mvc</module>
+        <module>p03_jpa</module>
     </modules>
 
     <properties>

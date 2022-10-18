@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql # 后台数据库是MySQL
+    show-sql: true  #日志中显示执行的SQL语句
+    # 正向工程：Entity---DDL
+    # 反向工程  DDL-----Entity Mapper
+    generate-ddl: true # 根据实体类创建DDL语句，自动生成数据库
+    hibernate:
+      ddl-auto: update # 自动生成DDL的执行时机
+      #命名策略大写变下划线
+      naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+server:
+  port: 18081
+#指定日志级别
+logging:
+  level:
+    com.atguigu.dao: debug
