@@ -13,6 +13,7 @@
         <module>p01_hello</module>
         <module>p02_mvc</module>
         <module>p03_jpa</module>
+        <module>p04_case</module>
     </modules>
 
     <properties>
