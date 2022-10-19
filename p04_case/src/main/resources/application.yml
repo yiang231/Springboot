@@ -4,7 +4,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8769   # 指定注册地址 , Spring Boot Admin Server地址
+        url: http://localhost:8769 #指定注册地址 , Spring Boot Admin Server地址
   redis: # 配置redis
     host: 192.168.139.139
     port: 6379

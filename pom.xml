@@ -15,6 +15,7 @@
         <module>p03_jpa</module>
         <module>p04_case</module>
         <module>p05_actuator</module>
+        <module>p06_admin_server</module>
     </modules>
 
     <properties>
