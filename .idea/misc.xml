@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/p07_initializr/pom.xml" />
+        <option value="$PROJECT_DIR$/mydatasource-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/p09_use_mystarter/pom.xml" />
       </list>
     </option>
   </component>

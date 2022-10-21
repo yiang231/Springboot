@@ -1,0 +1,9 @@
+spring1:
+  jdbc2:
+    datasource3:
+      driver-class-name: aaaaaaaaaaaa
+      url: bbbbbbbbb
+      username: ccccccc
+      password: ddddddddd
+      #默认Druid，可以指定是c3p0
+      type: c3p0
