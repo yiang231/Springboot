@@ -6,4 +6,5 @@ spring1:
       username: ccccccc
       password: ddddddddd
       #默认Druid，可以指定是c3p0
+      #      type: druid
       type: c3p0

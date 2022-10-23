@@ -16,6 +16,8 @@
         <module>p04_case</module>
         <module>p05_actuator</module>
         <module>p06_admin_server</module>
+        <module>mydatasource-spring-boot-starter</module>
+        <module>p09_use_mystarter</module>
     </modules>
 
     <properties>
