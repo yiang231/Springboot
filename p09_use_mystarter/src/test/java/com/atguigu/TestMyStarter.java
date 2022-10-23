@@ -1,4 +1,4 @@
-package com.atguigu.test;
+package com.atguigu;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
